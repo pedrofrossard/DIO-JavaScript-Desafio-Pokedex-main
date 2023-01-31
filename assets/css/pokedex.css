@@ -87,14 +87,26 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
+    padding: 0.75rem 1.5rem;
     margin: .25rem 0;
-    font-size: .625rem;
-    color: white;
-    background-color: #6C79DB;
-    border: none;
-    border-radius: 1rem;
+    color: #678FEE;
+    background-color: #f7cd25;
+    border-radius: 10px;
     cursor: pointer;
+    border: 2px solid #678FEE;
+    font-size: 12px;
+}
+
+.pagination button:hover {
+    padding: 0.75rem 1.5rem;
+    margin: .25rem 0;
+    color: #1b5aeb;
+    background-color: #cfa90f;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #678FEE;
+    font-size: 12px;
+    transition: 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 380px) {
